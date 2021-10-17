@@ -123,7 +123,7 @@ stages:
     environment: staging
     variables:
     - group: 'Release'
-    strategy:
+    strategy: 
       runOnce:
         deploy:
           steps:
